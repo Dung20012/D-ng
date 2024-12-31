@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Đây là trang web của tôi</h1> <br>
+    <p>Chào mừng bạn đến với trang web của tôi</p>
+    <img src="../cay-thong-mua-giang-sinh-10.jpg" alt="" width="400px" height="600px">
+    <p>chúc mừng năm mới!!</p>
+</body>
+</html>
