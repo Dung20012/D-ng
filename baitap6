@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Họ và Tên: Bùi Tiến Dũng</h3> <br>
+    <p>Vị trí: Lập trình viên Frontend</p>
+    <img src="../download.jpg" alt="">
+    <h4>Thông tin liên hệ</h4>
+    <ul>
+        <li>Email:buidungtien@gmail.com</li>
+        <li>Số điện thoại: 0123-456-789</li>
+        <li>Địa chỉ: Đường abc, Quận abc, Thành Phố Hà Nội</li>
+    </ul>
+
+    <h4>Kỹ năng</h4>
+    <ul>
+        <li>HTML,CSS JavaScript</li>
+        <li>ReactJS, Angular</li>
+        <li>Git, GitHub</li>
+    </ul>
+
+    <h4>Kinh nghiệm làm việc</h4>
+    <ul>
+        <li><b>Công ty ABC</b>(01/2020-Hiện tại)</li>
+        <p>Vị trí: Lập trình viên Frontend</p>
+        <li><b>Công ty XYZ</b>(06/2018-12/2019)</li>
+        <p>Vị trí: Thực tập sinh phát triển web</p>
+    </ul>
+
+    <h4>Học vấn</h4>
+    <ul>
+        <li><b>Đại học Công nghệ Thông tin</b></li>
+        <p>Chuyên ngành: Khoa học máy tính</p>
+        <p>Thời gian: 2015-2019</p>
+        ©2024 Bùi Tiến Dũng
+    </ul>
+</body>
+</html>
