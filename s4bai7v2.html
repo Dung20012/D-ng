@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form-ab {
+            width: 450px;
+            background: whitesmoke;
+            padding: 20px;
+            border-radius: 8px;;
+        }
+
+        .form-ab h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .form-ac {
+            margin-bottom: 15px;
+        }
+
+        .form-ac label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-ac input{
+            width: 420px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 15px;
+            background: #fff;
+        }
+        textarea{
+            width: 440px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-ac button {
+            width: 440px;
+            height: 40px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 15px;   
+        }
+        .form-ac textarea {
+            resize: none; /* tắt viền cuối thẻ textarea */
+            height: 100px;
+        }
+
+        .form-ac button {
+            background-color: #333;
+            color: #fff;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="form-ab">
+        <h1>Tuyển dụng</h1>
+        <form>
+            <div class="form-ac">
+                <label for="">Họ và tên:</label>
+                <input type="text" name="name" required>
+            </div>
+            <div class="form-ac">
+                <label for="">Email:</label>
+                <input type="email" name="email" required>
+            </div>
+            <div class="form-ac">
+                <label for="">Số điện thoại:</label>
+                <input type="tel" name="tel" required>
+            </div>
+            <div class="form-ac">
+                <label for="">CV:</label>
+                <input type="file" name="file" required>
+            </div>
+            <div class="form-ac">
+                <label for="">Tin nhắn:</label>
+                <textarea name="messenger"></textarea>
+            </div>
+            <div class="form-ac">
+                <button>Gửi</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
