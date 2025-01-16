@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* 1 */
+     .ac{
+            height: 100px;
+            width: 200px;
+            background: gray;
+            border: wheat;
+        }
+        .a :hover{
+            background-color:black;
+            color: white;
+        }
+        /* 2 */
+        .ab{
+            height: 100px;
+            width: 200px;
+            background: gray;
+            border: gray;
+        }
+        .b :hover{
+            background-color: aqua;
+            color: white;
+        }
+        /* 3 */
+        .cb{
+            border: gray;
+            width: 200px;
+            height: 100px;
+            background: gray;
+            /* transition-property: width 2s height 2s; */
+            transition-timing-function: linear;
+            transition-duration: 2s;
+        }
+        .cb:hover{
+            width: 100px;
+            height: 100px;
+            background: paleturquoise;
+        }
+        
+</style>
+<body>
+    <div class="a">
+        <button class="ac">Fade in</button>
+    </div>
+    <hr>
+    <div class="b">
+        <button class="ab">Change Color</button>
+    </div>
+    <hr>
+    <div class="c">
+        <button class="cb">Grow</button>
+    </div>
+
+</body>
+</html>
