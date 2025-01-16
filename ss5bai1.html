@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .container {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-width: 5px 10px 15px 20px;
+            border-style: solid;
+            border-color: red purple green blue;
+            display: inline-block;
+            position: relative;
+            background-color: whitesmoke;
+            color: black;
+        }
+        .container::after {
+            content: '';
+            position: absolute;
+            right: -25px;
+            top: 0;
+            bottom: 0;
+            width: 5px;
+            background: repeating-linear-gradient(
+            purple 0,
+            purple 5px,
+            transparent 5px,
+            transparent 10px
+            );
+        }
+</style>
+<body>
+    <div class="container">
+        Submit
+    </div>
+</body>
+</html>
