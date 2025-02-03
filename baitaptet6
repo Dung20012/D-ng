@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="b6.css">
+    <title>Document</title>
+    <style>
+        .color{
+    background: linear-gradient(#00bfff, #800080);
+    border-radius: 10px;
+    transition: 0.5ms;
+}
+.color:hover{
+    background: linear-gradient(45deg, #00bfff, #800080);
+}
+
+    </style>
+</head>
+<body>
+    <div class="color">
+    <h1 class="a">Chào mừng bạn</h1>
+    <p class="b">Đây là một bài tập về hiệu ứng gradient.</p>
+    </div>
+</body>
+</html>
