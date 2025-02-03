@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="b8.css">
+    <title>Document</title>
+    <style>
+        .school{
+    background-color: #333300;
+    width: 415px;
+    
+}
+.motip{
+    color: #fff;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+    </style>
+</head>
+<body>
+    <div class="school">
+        <div class="motip">❝
+        Not only does my remuse look impressive-filled with the <br>
+        names and logos of world-class institutions-but these <br>
+        certificates also bring me closer to my career goals by <br>
+        validating the skills l've learned."
+    </div>
+    </div>
+</body>
+</html>
