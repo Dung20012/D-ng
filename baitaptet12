@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="b12.css">
+    <title>Document</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.set{
+    width: 300px;
+    border: 20px solid rgb(117, 173, 207);
+}
+.set:hover{
+    border: 20px solid blue;
+}
+.set i{
+    width: 100%;
+}
+ul li{
+    list-style: none;
+}
+.umile{
+    padding-left: 40px;
+    font-size: 50px;
+    color: rgb(15, 15, 160);
+}
+.doctor{
+    color: rgb(15, 15, 160);
+    font-size: 30px;
+}
+p, .ninja{
+    color: grey;
+}
+.ninja:hover{
+    color: blue;
+    font-weight: bold;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="set">
+        <div class="umile">
+    <i class="fa-solid fa-magnifying-glass"></i>
+</div>
+<ul>
+    <li class="doctor">Search doctor</li>
+    <p>Search a doctor by education, <br>
+        qualifications or experience- <br>
+        contact for inquiry. 
+    </p>
+    <li class="ninja">Learn More</li>
+</ul>
+
+<div>
+
+</div>
+</div>
+</body>
+</html>
