@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="b11.css">
+    <title>Document</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ment{
+    width: 300px;
+}
+.ment img{
+    width: 100%;
+}
+.edu img{
+    width: 150px;
+    height: 50px;
+    padding-left: 200px;
+    padding-bottom: 20px;
+}
+.meme img{
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+}
+.devp{
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    left: 30px;
+    padding-left: 20px;
+}
+.devp{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 2px 2px white;
+    width: 320px;
+}
+ul li{
+    color: gray;
+}
+.gray{
+    color: gray;
+}
+.beru{
+    font-weight: bolder;
+    font-size: 30px;
+}
+p{
+    color: gray;
+}
+.conter::marker{
+    color: rgb(0, 187, 255);
+}
+    </style>
+</head>
+<body>
+    <div class="ment">
+        <div class="edu">
+        <img src="https://portal.rikkei.edu.vn/assets/imgs/login/logo-rikkei2%202.png" alt="">
+    </div>
+    <div class="meme">
+        <img src="https://toidicodedao.com/wp-content/uploads/2017/09/lap.jpg" alt="">
+        <div class="devp">
+        <h1>Web Development</h1>
+        <ul>
+            <span class="gray">Fee </span>
+            <span class="beru"> $250</span>
+            <p>Web development basic to higer level</p>
+            <li class="conter"> 30 Classes</li>
+            <li class="conter"> 3 Months</li>
+        </ul>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
