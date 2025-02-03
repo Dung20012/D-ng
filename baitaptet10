@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="b10.css">
+    <title>Document</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rikkei{
+    width: 500px;
+    background-color: rgb(244, 242, 242);
+}
+.rikkei img{
+    width: 100%;
+}
+.one{
+    color: grey;
+    border-bottom: 1px solid gray;
+    padding-bottom: 25px;
+}
+.two{
+    list-style: none;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+button{
+    background: orange;
+    height: 70px;
+    width: 150px;
+    border-radius: 10px;
+    border: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.image{
+    width: 200px;
+    padding-left: 320px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="rikkei">
+        <div class="image">
+        <img src="https://portal.rikkei.edu.vn/assets/imgs/login/logo-rikkei2%202.png" alt="">
+    </div>
+    <div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe06Ad6VBSkX5f07aFSyZVWzJ2J9uUKbZ1Jg&s" alt="">
+        <ul>
+            <li class="one">21 November 2021</li>
+            <p class="two">How to become a pro web designer in
+                2022 and get remote job?</p>
+                <button>Read More</button>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>
