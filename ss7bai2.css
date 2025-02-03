@@ -1,0 +1,22 @@
+.item{
+    background: rgb(95, 225, 95);
+    border: 10px solid #fff;
+    width: 200px;
+    height: 100px;
+    float: left;
+    color: white;
+    width: 22.22%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.iteam{
+    background: rgb(95, 225, 95);
+    border: 10px solid #fff;
+    width: 200px;
+    height: 100px;
+    float: left;
+    color: #fff;
+    width: 22.22%;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
