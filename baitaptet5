@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="b5.css">
+    <title>Document</title>
+    <style>
+        input{
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+input:hover{
+    border: 2px solid #00bfff;
+}
+button{
+    background: #007bff;
+    color:  #fff;
+}
+button:hover{
+    background: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+    <form action="">
+        Họ và tên: <input type="text" placeholder="Nhập tên của bạn"> <br>
+        Email: <input type="email" placeholder="Nhập email của bạn"> <br>
+        <button>Gửi</button>
+    </form>
+</body>
+</html>
