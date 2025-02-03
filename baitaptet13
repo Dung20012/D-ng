@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="b13.css">
+    <title>Document</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.covid{
+    width: 300px;
+    border: 1px solid rgb(237, 221, 221);
+    border-radius: 10px;
+}
+.covid img{
+    width: 100%;
+    border-radius: 20px
+}
+.mediolas{
+    padding-left: 40px;
+}
+ul li{
+    list-style: none;
+}
+.view{
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.vid{
+    margin-bottom: 15px;
+    color: gray;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.resop{
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+    </style>
+</head>
+<body>
+    <div class="covid">
+        <div class="medicine">
+            <img src="https://images.baodantoc.vn/uploads/2021/Th%C3%A1ng%207/Ng%C3%A0y%208/Thanh/1622099817-news-1904720210527145805.1715480.jpg" alt="">
+        </div>
+        <ul class="mediolas">
+            <li class="view">What is Population Health <br>
+                Management?
+            </li>
+            <li class="vid">
+                It's easy to think about medical <br>
+                care from a narrow perspective. <br>
+                You go to the hospital.
+            </li>
+            <li class="resop">Learn More</li>
+        </ul>
+    </div>
+</body>
+</html>
