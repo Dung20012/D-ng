@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="b1.css">
+    <title>Document</title>
+    <style>
+        h1{
+    font-size: 32px;
+    color: green;
+}
+p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    </style>
+</head>
+<body>
+    <h1>Chào mừng đến với CSS</h1>
+    <p>Đây là bài tập thực hành CSS cơ bản.</p>
+</body>
+</html>
