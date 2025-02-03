@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="b7.css">
+    <title>Document</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    width: 800px;
+  
+}
+.home img{
+    width: 100%;
+    position: relative;
+}
+.liuliu{
+    position: absolute;
+    top: 50px;
+    color: white;
+}
+h1{
+    position: absolute;
+    top: 70px;
+    color: white;
+}
+.onu{
+    position: absolute;
+    top: 170px;
+    color: white;
+}
+button{
+    position: absolute;
+    top: 250px;
+    border-radius: 20px;
+    height: 40px;
+    background: rgb(12, 12, 108);
+    border: 1px solid rgb(13, 13, 93);
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="home">
+        <div class="hom">
+        <img src="https://img.pikbest.com/wp/202405/sleek-3d-render-of-a-blue-house-logo_9836962.jpg!w700wp" alt="">
+    </div>
+        <p class="liuliu">Welcome to Besnik Agency</p>
+        <h1>Discover a place <br>
+             you'll love to live.</h1>
+        <p class="onu">Get the best real estate deals first, before they hit the mass <br>
+            market! hot foreclosure deals with one simple search.
+        </p>
+        <button>More Abount Us</button>
+    </div>
+</body>
+</html>
