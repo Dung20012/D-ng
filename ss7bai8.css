@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 2em;
+    color: #333;
+    
+}
+
+.book-container {
+    
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.book-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    height: 230px;
+    margin-left:100px;
+}
+
+.book-card img {
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.book-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+.book-card p {
+    font-size: 0.9em;
+    color: #777;
+    margin: 10px;
+}
+
+.book-card button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 10px;
+}
+
+.box-to{
+    margin-top: 15px;
+    margin-left: 120px;
+}
