@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="b15.css">
+    <title>Document</title>
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rabbit{
+    width: 500px;
+    position: relative;
+    display: flex;
+    left: 50px;
+    gap: 20px;
+    background-color: rgb(243, 237, 237);
+    height: 150px;
+    padding-left: 20px;
+}
+.rabbit img{
+    width: 100%;
+    position: absolute;
+    gap: 0;
+}
+.tho img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+.usagi img{
+    height: 100px;
+    width: 100px;
+    
+}
+.font img{
+    margin-top: 125px;
+    padding-right: 100px;
+    width: 25px;
+    height: 20px;
+    display: flex;
+    left: 135px;
+}
+.nami{
+    margin-top: 80px;
+    color: blue;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <div class="rabbit">
+        <p class="nami">
+            Our experience to always <br>
+            update the lates stayles"
+        </p>
+        
+        <div class="tho">
+        <img src="https://inkythuatso.com/uploads/thumbnails/800/2023/02/hinh-con-tho-hoat-hinh-de-thuong-cam-cu-ca-rot-2-23-14-22-47.jpg" alt="">
+    </div>
+        <div class="usagi">
+            <img src="https://anhsang.edu.vn/wp-content/uploads/1bd5c166811f8cfaa1a741589e3890f0.jpg" alt="">
+        </div>
+        <div class="font">
+            <img src="../BAITAPTET/comma.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
