@@ -1,0 +1,28 @@
+.head{
+    background: blue;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+    color: #fff;
+}
+.sidebar{
+    background: green;
+    float: left;
+    height: 200px;
+    width: 200px;
+    color: #fff;
+}
+.Content{
+    background: red;
+    height: 200px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.footer{
+    background: violet;
+    display: inline-block;
+    width: 100%;
+    padding: 7px;
+    color: #fff;
+}
