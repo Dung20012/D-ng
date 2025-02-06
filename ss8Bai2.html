@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bai2.css">
+    <title>Document</title>
+</head>
+<style>
+    .flex-box {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    color:  #fff;
+}
+
+.item {
+    background-color: #f88;
+    text-align: center;
+    padding: 20px;
+}
+
+  /* 4 cột */
+@media (min-width: 992px) {
+    .flex-box {
+      grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+  /* 2 hàng 2 cột */
+@media (min-width: 768px) and (max-width: 991px) {
+    .flex-box {
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+  /* 1 cột */
+@media (max-width: 767px) {
+    .flex-box {
+      grid-template-columns: 1fr;
+    }
+}
+</style>
+<body>
+    <div class="flex-box">
+        <div class="item">Cột 1</div>
+        <div class="item">Cột 2</div>
+        <div class="item">Cột 3</div>
+        <div class="item">Cột 4</div>
+      </div>
+</body>
+</html>
