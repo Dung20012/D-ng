@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bai1.css">
+    <title>Document</title>
+</head>
+<style>
+    .center{
+    background-color: aqua;
+    display: inline-block;
+    padding-left: 120px;
+    height: 30px;
+    width: 150px;
+    padding-top: 7px;
+    border: 2px solid gray;
+}
+.mind-break{
+    background-color: aqua;
+    padding-left: 250px;
+    height: 30px;
+    width: 297px;
+    padding-top: 7px;
+    border: 2px solid gray;
+}
+@media screen and (max-width: 282px) {
+    .center, .mind-break {
+      padding-left: 120px;
+    }
+  }
+</style>
+<body>
+    <div class="container">
+        <div class="center">Khối1</div>
+        <div class="center">Khối2</div>
+        <div class="mind-break">Khối3</div>
+    </div>
+</body>
+</html>
